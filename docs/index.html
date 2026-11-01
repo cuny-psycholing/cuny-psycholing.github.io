@@ -1,18 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CUNY Psycholinguistics Lab</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUNY Psycholinguistics *Lab</title>
+  <meta name="description" content="We combine linguistics, psychology, and computation to study the algorithms and mental representations which form the basis of our knowledge of Language." />
+  <meta property="og:title" content="CUNY Psycholinguistics *Lab" />
+  <meta property="og:description" content="We combine linguistics, psychology, and computation to study the algorithms and mental representations which form the basis of our knowledge of Language." />
+  <meta property="og:image" content="https://cuny-psycholing.github.io/imgs/starlabplainbw.png" />
+  <meta property="og:url" content="https://cuny-psycholing.github.io/" />
+  <meta property="og:type" content="website" />
+  <link rel="shortcut icon" href="imgs/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>(Studies on mind and language)</h1>
-    <p>More detail here.</p>
-    
-    <!-- A simple link -->
-    <a href="https://www.w3schools.com">Visit W3Schools</a>
 
-    <!-- A simple image placeholder -->
-    <img src="https://www.spencercaplan.org/imgs/Locust-Walk-Night.jpg" alt="Placeholder Image" width=600px>
+  <!-- Minimalist Light Header Banner -->
+  <header class="site-header">
+    <div class="container">
+      <h1>
+        <span>CUNY Psycholinguistics</span>
+        <img src="imgs/starlabplainbw.png" alt="Psycholinguistics *Lab logo (Design credit: Jordan Kodner)" title="Psycholinguistics *Lab logo (Design credit: Jordan Kodner)" class="header-logo" />
+      </h1>
+    </div>
+  </header>
+
+  <!-- Centered Sticky Navigation Bar (CUNY Blue + White + CUNY Yellow Active) -->
+  <nav class="sticky-nav" aria-label="Section Navigation">
+    <div class="nav-inner">
+      <a href="#lab" class="nav-link active" data-section="lab">*Lab</a>
+      <span class="nav-sep" aria-hidden="true">&#8226;</span>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <span class="nav-sep" aria-hidden="true">&#8226;</span>
+      <a href="#people" class="nav-link" data-section="people">People</a>
+      <span class="nav-sep" aria-hidden="true">&#8226;</span>
+      <a href="#history" class="nav-link" data-section="history">History</a>
+      <span class="nav-sep" aria-hidden="true">&#8226;</span>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- *LAB SECTION -->
+    <section id="lab" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>What we do</h2>
+          <span class="section-rule"></span>
+        </div>
+        <p class="lead-text">
+          The <strong style="color: var(--cuny-blue);">Psycholinguistics *Lab</strong> at the <a href="https://www.cuny.edu/" target="_blank" rel="noopener">CUNY</a> <a href="https://www.gc.cuny.edu/linguistics" target="_blank" rel="noopener">Graduate Center</a> studies language and the mind. We combine approaches from linguistics, psychology, philosophy, and computer science to work towards the long-term goal of understanding the algorithms and mental representations which form the basis of our knowledge of Language. We study both <em>what</em> is represented in the mind (from perceptual categories to abstract concepts) and <em>how</em> discrete internal states interface with continuous, graded behavior in the world.
+        </p>
+        <p class="lead-text">
+          Much of this work would most naturally be labeled <span class="gold">language acquisition</span>, <span class="gold">language processing</span>, or <span class="gold">computational linguistics</span>, though the specific questions we study vary widely (see more details regarding past and ongoing <a href="#projects">Projects</a> below). The methods used to study these topics are in turn diverse and span computational modeling, laboratory experiments, quantitative analysis of corpus data, and pure theory building.
+        </p>
+        <p class="lead-text">
+          Above all, we emphasize a commitment to discrete representations, causal mechanisms, and simple explanations in the study of language, learning, and cognitive processing. Many lines of inquiry involve the study of intermediate mental structures recruited during real-time processing and learning rather than direct Input/Output mappings.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS / RESEARCH AREAS SECTION -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Research Areas</h2>
+          <span class="section-rule"></span>
+        </div>
+        <div class="card-grid">
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Immediacy of Linguistic Computation</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009557" target="_blank" rel="noopener">The discrete perception of continuous speech</a><br/>
+                  Spencer Caplan &amp; Karthik Durvasula (under review). <em class="gold">pre-print</em>. [<a href="https://osf.io/preprints/psyarxiv/s4ch3_v1" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/marbles" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0327615" target="_blank" rel="noopener">Word learning as category formation</a><br/>
+                  Spencer Caplan (2025). <em class="gold">PLOS One</em>. [<a href="https://doi.org/10.1371/journal.pone.0327615" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/NGM" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://journals.sagepub.com/doi/10.1177/0956797620968787" target="_blank" rel="noopener">Now You Hear Me, Later You Don&rsquo;t: The Immediacy of Linguistic Computation and the Representation of Speech</a><br/>
+                  Spencer Caplan, Alon Hafri, &amp; John C. Trueswell (2021). <em class="gold">Psychological Science</em>. [<a href="https://doi.org/10.1177/0956797620968787" target="_blank" rel="noopener">pdf</a> | <a href="https://osf.io/wg6de/" target="_blank" rel="noopener">osf</a>]
+                </li>
+                <li>
+                  <a href="https://repository.upenn.edu/entities/publication/af6bfd60-2796-44ed-86f5-517c185708c8" target="_blank" rel="noopener">The Immediacy of Linguistic Computation</a><br/>
+                  Spencer Caplan (2021). <em class="gold">Doctoral Dissertation, University of Pennsylvania</em>. [<a href="https://repository.upenn.edu/entities/publication/af6bfd60-2796-44ed-86f5-517c185708c8" target="_blank" rel="noopener">pdf</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Discreteness of Perceptual Categories</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009557" target="_blank" rel="noopener">The discrete perception of continuous speech</a><br/>
+                  Spencer Caplan &amp; Karthik Durvasula (under review). <em class="gold">pre-print</em>. [<a href="https://osf.io/preprints/psyarxiv/s4ch3_v1" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/marbles" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://journals.sagepub.com/doi/10.1177/0956797620968787" target="_blank" rel="noopener">Now You Hear Me, Later You Don&rsquo;t: The Immediacy of Linguistic Computation and the Representation of Speech</a><br/>
+                  Spencer Caplan, Alon Hafri, &amp; John C. Trueswell (2021). <em class="gold">Psychological Science</em>. [<a href="https://doi.org/10.1177/0956797620968787" target="_blank" rel="noopener">pdf</a> | <a href="https://osf.io/wg6de/" target="_blank" rel="noopener">osf</a>]
+                </li>
+                <li>
+                  <a href="https://journals.sagepub.com/doi/full/10.1177/0142723720906233" target="_blank" rel="noopener">Abstractions are good for brains and machines: A commentary on Ambridge (2020)</a><br/>
+                  Kathryn Schuler, Jordan Kodner, &amp; Spencer Caplan (2020). <em class="gold">First Language</em>. [<a href="https://doi.org/10.1177/0142723720906233" target="_blank" rel="noopener">pdf</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Concepts, Reasoning, and Underspecification</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009859" target="_blank" rel="noopener">The Uncommon Sense Effect: experimental evidence for underspecification as the mental basis of logical inference</a><br/>
+                  Elliot Schwartz, Griffin Pion, Jake Quilty-Dunn, Eric Mandelbaum, &amp; Spencer Caplan (under review). <em class="gold">pre-print</em>. [<a href="https://osf.io/preprints/psyarxiv/yecmg_v1" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/uncommon-sense-effect" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://escholarship.org/uc/item/5nv6w0qf" target="_blank" rel="noopener">Polysemy and Inference: Reasoning with Underspecified Representations</a><br/>
+                  Elliot Schwartz, Griffin Pion, Jake Quilty-Dunn, Eric Mandelbaum, &amp; Spencer Caplan (2025). <em class="gold">Proceedings of the 47th Annual Meeting of the Cognitive Science Society (CogSci 2025)</em>. [<a href="https://escholarship.org/uc/item/5nv6w0qf" target="_blank" rel="noopener">pdf</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Satisficing vs. Optimization</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009859" target="_blank" rel="noopener">The Uncommon Sense Effect: experimental evidence for underspecification as the mental basis of logical inference</a><br/>
+                  Elliot Schwartz, Griffin Pion, Jake Quilty-Dunn, Eric Mandelbaum, &amp; Spencer Caplan (under review). <em class="gold">pre-print</em>. [<a href="https://osf.io/preprints/psyarxiv/yecmg_v1" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/uncommon-sense-effect" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://www.pnas.org/doi/full/10.1073/pnas.2508061123" target="_blank" rel="noopener">A Simple Threshold Captures the Social Learning of Conventions</a><br/>
+                  Douglas Guilbeault, Spencer Caplan, &amp; Charles Yang (2026). <em class="gold">Proceedings of the National Academy of Sciences (PNAS)</em>. [<a href="https://doi.org/10.1073/pnas.2508061123" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/name-game" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0327615" target="_blank" rel="noopener">Word learning as category formation</a><br/>
+                  Spencer Caplan (2025). <em class="gold">PLOS One</em>. [<a href="https://doi.org/10.1371/journal.pone.0327615" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/NGM" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010027720302857" target="_blank" rel="noopener">Miller&rsquo;s monkey updated: Communicative efficiency and the statistics of words in natural language</a><br/>
+                  Spencer Caplan, Jordan Kodner, &amp; Charles Yang (2020). <em class="gold">Cognition</em>. [<a href="https://doi.org/10.1016/j.cognition.2020.104466" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/jkodner05/ThePhonotacticMonkey" target="_blank" rel="noopener">code</a> | <a href="https://jkodner05.github.io/live_demo.mp4" target="_blank" rel="noopener">demo</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Apparent Functional Design in Language</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://www.pnas.org/doi/full/10.1073/pnas.2508061123" target="_blank" rel="noopener">A Simple Threshold Captures the Social Learning of Conventions</a><br/>
+                  Douglas Guilbeault, Spencer Caplan, &amp; Charles Yang (2026). <em class="gold">Proceedings of the National Academy of Sciences (PNAS)</em>. [<a href="https://doi.org/10.1073/pnas.2508061123" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/name-game" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://www.pnas.org/doi/10.1073/pnas.2204664119" target="_blank" rel="noopener">Another model not for the learning of language</a><br/>
+                  Jordan Kodner, Spencer Caplan, &amp; Charles Yang (2022). <em class="gold">Proceedings of the National Academy of Sciences (PNAS)</em>. [<a href="https://doi.org/10.1073/pnas.2204664119" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010027720302857" target="_blank" rel="noopener">Miller&rsquo;s monkey updated: Communicative efficiency and the statistics of words in natural language</a><br/>
+                  Spencer Caplan, Jordan Kodner, &amp; Charles Yang (2020). <em class="gold">Cognition</em>. [<a href="https://doi.org/10.1016/j.cognition.2020.104466" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/jkodner05/ThePhonotacticMonkey" target="_blank" rel="noopener">code</a> | <a href="https://jkodner05.github.io/live_demo.mp4" target="_blank" rel="noopener">demo</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Statistical Descriptions vs. Linguistic Explanations</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009964" target="_blank" rel="noopener">Excavating grammatical fossils: Effects and causes in the semantic organization of Swahili noun classes</a><br/>
+                  Matt Malone, Jordan Kodner, &amp; Spencer Caplan (under review). <em class="gold">pre-print</em>. [<a href="https://ling.auf.net/lingbuzz/009964" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://www.glossa-journal.org/article/id/5208/" target="_blank" rel="noopener">What usage can tell us about grammar: Embedded Verb Second in Scandinavian</a><br/>
+                  Spencer Caplan &amp; Kajsa Dj&auml;rv (2019). <em class="gold">Glossa: a journal of general linguistics</em>. [<a href="http://doi.org/10.5334/gjgl.867" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/ev2-optionality" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://escholarship.org/uc/item/0p72d9c0" target="_blank" rel="noopener">The Acquisition of Vowel Harmony from Simple Local Statistics</a><br/>
+                  Spencer Caplan &amp; Jordan Kodner (2018). <em class="gold">Proceedings of the 40th Annual Meeting of the Cognitive Science Society (CogSci 2018)</em>. [<a href="https://escholarship.org/uc/item/0p72d9c0" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/VowelHarmonyAcquisition" target="_blank" rel="noopener">code</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Word Learning and Referential Ambiguity</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0327615" target="_blank" rel="noopener">Word learning as category formation</a><br/>
+                  Spencer Caplan (2025). <em class="gold">PLOS One</em>. [<a href="https://doi.org/10.1371/journal.pone.0327615" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/NGM" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://escholarship.org/uc/item/77m4024p" target="_blank" rel="noopener">Using an Egocentric Human Simulation Paradigm to quantify referential and semantic ambiguity in early word learning</a><br/>
+                  Spencer Caplan, Misty Peng, Yayun Zhang, &amp; Chen Yu (2023). <em class="gold">Proceedings of the 45th Annual Meeting of the Cognitive Science Society (CogSci 2023)</em>. [<a href="https://escholarship.org/uc/item/77m4024p" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://aclanthology.org/W19-2809/" target="_blank" rel="noopener">Local Processes of Homophone Acquisition</a><br/>
+                  Deniz Beser &amp; Spencer Caplan (2019). <em class="gold">Proceedings of the Society for Computation in Linguistics (SCiL)</em>. [<a href="https://aclanthology.org/W19-2809/" target="_blank" rel="noopener">pdf</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>Usage and Grammar</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009964" target="_blank" rel="noopener">Excavating grammatical fossils: Effects and causes in the semantic organization of Swahili noun classes</a><br/>
+                  Matt Malone, Jordan Kodner, &amp; Spencer Caplan (under review). <em class="gold">pre-print</em>. [<a href="https://ling.auf.net/lingbuzz/009964" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://www.glossa-journal.org/article/id/5208/" target="_blank" rel="noopener">What usage can tell us about grammar: Embedded Verb Second in Scandinavian</a><br/>
+                  Spencer Caplan &amp; Kajsa Dj&auml;rv (2019). <em class="gold">Glossa: a journal of general linguistics</em>. [<a href="http://doi.org/10.5334/gjgl.867" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/ev2-optionality" target="_blank" rel="noopener">code</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>P-side Parsing and Learning</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009557" target="_blank" rel="noopener">The discrete perception of continuous speech</a><br/>
+                  Spencer Caplan &amp; Karthik Durvasula (under review). <em class="gold">pre-print</em>. [<a href="https://osf.io/preprints/psyarxiv/s4ch3_v1" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/marbles" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://journals.sagepub.com/doi/10.1177/0956797620968787" target="_blank" rel="noopener">Now You Hear Me, Later You Don&rsquo;t: The Immediacy of Linguistic Computation and the Representation of Speech</a><br/>
+                  Spencer Caplan, Alon Hafri, &amp; John C. Trueswell (2021). <em class="gold">Psychological Science</em>. [<a href="https://doi.org/10.1177/0956797620968787" target="_blank" rel="noopener">pdf</a> | <a href="https://osf.io/wg6de/" target="_blank" rel="noopener">osf</a>]
+                </li>
+                <li>
+                  <a href="https://escholarship.org/uc/item/0p72d9c0" target="_blank" rel="noopener">The Acquisition of Vowel Harmony from Simple Local Statistics</a><br/>
+                  Spencer Caplan &amp; Jordan Kodner (2018). <em class="gold">Proceedings of the 40th Annual Meeting of the Cognitive Science Society (CogSci 2018)</em>. [<a href="https://escholarship.org/uc/item/0p72d9c0" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/VowelHarmonyAcquisition" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://aclanthology.org/W17-0115/" target="_blank" rel="noopener">Case Studies in the Automatic Characterization of Grammars from Small Wordlists</a><br/>
+                  Jordan Kodner, Spencer Caplan, Hongzhi Xu, Mitchell P. Marcus, &amp; Charles Yang (2017). <em class="gold">2nd Workshop on Computational Methods for Endangered Languages (ComputEL-2)</em>. [<a href="https://aclanthology.org/W17-0115/" target="_blank" rel="noopener">pdf</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <button type="button" class="research-card-toggle" aria-expanded="false">
+              <h3>S-side Parsing and Learning</h3>
+            </button>
+            <div class="research-card-body">
+              <ul class="research-papers">
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/009964" target="_blank" rel="noopener">Excavating grammatical fossils: Effects and causes in the semantic organization of Swahili noun classes</a><br/>
+                  Matt Malone, Jordan Kodner, &amp; Spencer Caplan (under review). <em class="gold">pre-print</em>. [<a href="https://ling.auf.net/lingbuzz/009964" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://ling.auf.net/lingbuzz/010233" target="_blank" rel="noopener">Embedded Tense and the Problem of Acquisition</a><br/>
+                  Sam Alxatib &amp; Spencer Caplan (2026). <em class="gold">Proceedings of the 56th Annual Meeting of the North East Linguistic Society (NELS 56)</em>. [<a href="https://academicworks.cuny.edu/gc_pubs/1163/" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://www.pnas.org/doi/10.1073/pnas.2204664119" target="_blank" rel="noopener">Another model not for the learning of language</a><br/>
+                  Jordan Kodner, Spencer Caplan, &amp; Charles Yang (2022). <em class="gold">Proceedings of the National Academy of Sciences (PNAS)</em>. [<a href="https://doi.org/10.1073/pnas.2204664119" target="_blank" rel="noopener">pdf</a>]
+                </li>
+                <li>
+                  <a href="https://www.glossa-journal.org/article/id/5208/" target="_blank" rel="noopener">What usage can tell us about grammar: Embedded Verb Second in Scandinavian</a><br/>
+                  Spencer Caplan &amp; Kajsa Dj&auml;rv (2019). <em class="gold">Glossa: a journal of general linguistics</em>. [<a href="http://doi.org/10.5334/gjgl.867" target="_blank" rel="noopener">pdf</a> | <a href="https://github.com/scaplan/ev2-optionality" target="_blank" rel="noopener">code</a>]
+                </li>
+                <li>
+                  <a href="https://spencercaplan.org/research/LexSub.pdf" target="_blank" rel="noopener">Leveraging Lexical Substitution for Parser Adaptation</a><br/>
+                  Spencer Caplan, Neal Fox, David McClosky, &amp; Eugene Charniak (2015). <em class="gold">Undergraduate Thesis, Brown University</em>. [<a href="https://spencercaplan.org/research/LexSub.pdf" target="_blank" rel="noopener">pdf</a>]
+                </li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PEOPLE SECTION -->
+    <section id="people" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>People</h2>
+          <span class="section-rule"></span>
+        </div>
+
+        <!-- Faculty -->
+        <div class="people-subsection">
+          <h3 class="people-subheading">Faculty</h3>
+          <div class="people-grid">
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://www.spencercaplan.org/" target="_blank" rel="noopener">Spencer Caplan</a>
+              </div>
+              <div class="person-role">Chief cook and bottle washer</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Graduate Students -->
+        <div class="people-subsection">
+          <h3 class="people-subheading">Graduate Students</h3>
+          <div class="people-grid">
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://shameedjob.com/" target="_blank" rel="noopener">Shameed Job</a>
+              </div>
+              <div class="person-role">MA student, Computational Linguistics</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://mattmalone.ws.gc.cuny.edu/" target="_blank" rel="noopener">Matt Malone</a>
+              </div>
+              <div class="person-role">PhD student, Linguistics</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://www.griffinpion.com/" target="_blank" rel="noopener">Griffin Pion</a>
+              </div>
+              <div class="person-role">PhD student, Philosophy</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://www.schwartzworld.net/" target="_blank" rel="noopener">Elliot Schwartz</a>
+              </div>
+              <div class="person-role">PhD student, Philosophy</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">Zaid Tabaza</div>
+              <div class="person-role">PhD student, Linguistics</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Friends and Collaborators -->
+        <div class="people-subsection">
+          <h3 class="people-subheading">Friends and Collaborators</h3>
+          <div class="people-grid">
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://karthikdurvasula.gitlab.io/" target="_blank" rel="noopener">Karthik Durvasula</a>
+              </div>
+              <div class="person-role">Michigan State</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://www.gsb.stanford.edu/faculty-research/faculty/douglas-guilbeault" target="_blank" rel="noopener">Doug Guilbeault</a>
+              </div>
+              <div class="person-role">Stanford</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://pal.lingcogsci.udel.edu/team/" target="_blank" rel="noopener">Alon Hafri</a>
+              </div>
+              <div class="person-role">Delaware</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://jkodner05.github.io/" target="_blank" rel="noopener">Jordan Kodner</a>
+              </div>
+              <div class="person-role">Stony Brook</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="https://www.ericmandelbaum.com/" target="_blank" rel="noopener">Eric Mandelbaum</a>
+              </div>
+              <div class="person-role">the CUNYverse</div>
+            </div>
+            <div class="person-card">
+              <div class="person-name">
+                <a href="http://www.ling.upenn.edu/~ycharles/" target="_blank" rel="noopener">Charles Yang</a>
+              </div>
+              <div class="person-role">UPenn</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HISTORY SECTION -->
+    <section id="history" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Lab History</h2>
+          <span class="section-rule"></span>
+        </div>
+        <p class="lead-text">
+          Psycholinguistics at The CUNY Graduate Center has a long and illustrious history. From the 1980s up to her retirement in 2020, the Psycholinguistics Lab was organized by <a href="https://janetdeanfodor.wordpress.com/" target="_blank" rel="noopener">Janet Fodor</a> along with <a href="https://www.gc.cuny.edu/news/memoriam-professor-emerita-dianne-bradley" target="_blank" rel="noopener">Dianne Bradley</a>. Their intellectual and social leadership in the area of Sentence Processing is something to be admired, and it is thanks to them that for over thirty years the Annual Meeting of the <a href="https://www.hspsociety.org/conference" target="_blank" rel="noopener">Society for Human Sentence Processing</a> was officially known as the &ldquo;CUNY Conference&rdquo; on Human Sentence Processing.
+        </p>
+        <p class="lead-text">
+          The lab is now directed by <a href="https://www.spencercaplan.org/" target="_blank" rel="noopener">Spencer Caplan</a>. Please feel free to explore and please reach out if you&rsquo;d like more information about past, present, and future lab activities and the psycholinguistics and cognitive science community at the Graduate Center. The lab is housed in the <a href="https://www.gc.cuny.edu/linguistics" target="_blank" rel="noopener">Linguistics Program</a>, but many of our members and friends come from across the GC (including <a href="https://www.gc.cuny.edu/philosophy" target="_blank" rel="noopener">Philosophy</a>, <a href="https://www.gc.cuny.edu/philosophy/cognitive-science" target="_blank" rel="noopener">Cognitive Science</a>, and other programs), as well as NYC and beyond. We are the CUNY branch of the <a href="https://starlabonline.net/">StarLab</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT SECTION / FOOTER (Distinct Black + Yellow Accent Style) -->
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 20px;">
+        <h2 style="margin: 0;">Contact</h2>
+        <span class="section-rule"></span>
+      </div>
+      <p>
+        If you are interested in participating in the lab, joining our meetings and reading group, or have any other questions, contact Prof. Spencer Caplan:
+      </p>
+      <p style="margin-top: 12px;"><strong style="color: #FFFFFF;">scaplan at gc dot cuny dot edu</strong></p>
+      <p style="text-align: left; margin-top: 20px; margin-bottom: 4px;"><strong style="color: var(--cuny-yellow);">Psycholinguistics Lab</strong></p>
+      <p style="margin-top: 0;">
+        MA/PhD Program in Linguistics<br/>
+        The Graduate Center<br/>
+        365 Fifth Avenue<br/>
+        New York, NY 10016
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scroll-Spy Script for Sticky Navigation -->
+  <script>
+    (function () {
+      const navLinks = Array.from(document.querySelectorAll('.nav-link'));
+      const sectionIds = navLinks.map(link => link.getAttribute('data-section'));
+      const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+
+      function setActiveSection(activeId) {
+        navLinks.forEach(link => {
+          if (link.getAttribute('data-section') === activeId) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
+
+      function onScroll() {
+        const scrollPosition = window.scrollY + 120;
+        const nearBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 40);
+
+        if (nearBottom && sections.length > 0) {
+          setActiveSection(sections[sections.length - 1].id);
+          return;
+        }
+
+        let currentId = sections[0] ? sections[0].id : '';
+        for (const section of sections) {
+          if (section.offsetTop <= scrollPosition) {
+            currentId = section.id;
+          }
+        }
+        setActiveSection(currentId);
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      // Expandable Research Area Cards
+      document.querySelectorAll('.research-card-toggle').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.research-card');
+          const isOpen = card.classList.toggle('active');
+          btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
